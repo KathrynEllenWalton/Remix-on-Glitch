@@ -81,7 +81,7 @@ A"fter mounting pressure, India's top court intervened on Wednesday, asking for 
       function assemblePoem(articleWords) {
         let lineText = "";
         for (const [counter, word] of articleWords.entries()) {
-          if ((counter + 1) % 5 == 0) {
+          if ((counter + 1) % 4 == 0) {
             addLine(lineText);
             lineText = "";
           } else {
